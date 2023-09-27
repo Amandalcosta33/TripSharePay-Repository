@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj": {}
+    "C:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj": {}
   },
   "projects": {
-    "c:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj": {
+    "C:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj",
+        "projectUniqueName": "C:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj",
         "projectName": "TripSharePay-Repository",
-        "projectPath": "c:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj",
+        "projectPath": "C:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj",
         "packagesPath": "C:\\Users\\amand\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\obj\\",
+        "outputPath": "C:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,36 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "ExcentOne.EntityFrameworkCore.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.15.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0-rc.1.23419.4, )"
@@ -51,6 +81,26 @@
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[8.0.0-rc.1.23419.4, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Migrations": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

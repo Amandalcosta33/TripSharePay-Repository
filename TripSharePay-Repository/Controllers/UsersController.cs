@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using TripSharePay_Repository.DTO;
+using TripSharePay_Repository.Service;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace Controllers;
@@ -16,7 +18,7 @@ public class UsersController : ControllerBase
     [HttpPost]
     public string CreateAcess(CreateAcessDTO createAcessDTO)
     {
-        var result = usersService.creatFirstAcess(createAcessDTO);
+        var result = usersService.CreatFirstAcess(createAcessDTO);
         return ("created");
 
     }

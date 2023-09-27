@@ -1,4 +1,4 @@
-namespace Models
+namespace TripSharePay_Repository.Data.Entites
 {
     public class Event
         {
