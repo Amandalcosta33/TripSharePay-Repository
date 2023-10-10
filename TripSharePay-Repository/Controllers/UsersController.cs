@@ -3,24 +3,35 @@ using TripSharePay_Repository.DTO;
 using TripSharePay_Repository.Service;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
-namespace Controllers;
-[Route("[controller]")]
-[ApiController]
-public class UsersController : ControllerBase
+namespace Controllers
 {
-    private readonly IUsersService usersService;
+    [ApiController]
+    [Route("[controller]")]
 
-    public UsersController(IUsersService usersService)
+
+    public class UsersController : ControllerBase
     {
-        usersService = usersService;
+        private readonly IUsersService usersService;
+
+        public UsersController(IUsersService usersService)
+        {
+            this.usersService = usersService;
+        }
+
+        [HttpPost("create")]
+        public async Task<string> CreateAcess(CreateAcessDTO createAcessDTO)
+        {
+            try
+            {
+                var result = await usersService.CreatFirstAcess(createAcessDTO);
+                return result;
+            }
+            catch (Exception error)
+            {
+                return (error.Message);
+            }
+
+        }
+
     }
-
-    [HttpPost]
-    public string CreateAcess(CreateAcessDTO createAcessDTO)
-    {
-        var result = usersService.CreatFirstAcess(createAcessDTO);
-        return ("created");
-
-    }
-
 }

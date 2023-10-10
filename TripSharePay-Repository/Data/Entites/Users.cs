@@ -6,6 +6,14 @@ namespace TripSharePay_Repository.Data.Entites
 {
     public class users
     {
+        public users(string user_name, string name, string user_birthday, string senha)
+        {
+            this.user_name = user_name;
+            this.name = name;
+            this.user_birthday = user_birthday;
+            this.senha = senha;
+        }
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int user_id { get; set; }
@@ -15,5 +23,6 @@ namespace TripSharePay_Repository.Data.Entites
         public string name { get; set; }
         public string user_birthday { get; set; }
         public string senha { get; set; }
+        public string cpf { get; set; }
     }
 }

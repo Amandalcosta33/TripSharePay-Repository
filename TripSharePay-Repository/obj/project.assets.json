@@ -5548,11 +5548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj",
+      "projectUniqueName": "c:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj",
       "projectName": "TripSharePay-Repository",
-      "projectPath": "C:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj",
+      "projectPath": "c:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\TripSharePay-Repository.csproj",
       "packagesPath": "C:\\Users\\amand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\obj\\",
+      "outputPath": "c:\\Users\\amand\\OneDrive\\Documentos\\TripSharePay-Repository\\TripSharePay-Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
